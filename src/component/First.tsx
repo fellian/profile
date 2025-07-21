@@ -46,7 +46,7 @@ const Home = () => {
                             Student
                         </p>
                         <img
-                            src="src/assets/foto2.JPG"
+                            src="src/assets/foto2.jpg"
                             alt="Fellian Satriabudi"
                             className="w-40 h-40 mx-auto rounded-full border-4 border-blue-500 shadow-md object-cover"
                         />
