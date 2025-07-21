@@ -46,7 +46,7 @@ const Home = () => {
                             Student
                         </p>
                         <img
-                            src="public/assets/foto2.jpg"
+                            src="/assets/foto2.jpg"
                             alt="Fellian Satriabudi"
                             className="w-40 h-40 mx-auto rounded-full border-4 border-blue-500 shadow-md object-cover"
                         />
@@ -75,7 +75,7 @@ const Home = () => {
                         >
                             <div className="group w-64 h-64 rounded-xl overflow-hidden shadow-xl ring-4 ring-blue-500 bg-gray-800 transform hover:scale-105 transition duration-300">
                                 <img
-                                    src="public/assets/foto1.jpeg"
+                                    src="/assets/foto1.jpeg"
                                     alt="About"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                                 />
