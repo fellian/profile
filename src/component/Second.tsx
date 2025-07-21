@@ -36,6 +36,18 @@ const Projects = () => {
         "DecoNest is a web-based application developed to facilitate the online ordering and selling of home furniture. The design process includes requirement analysis (software specification), system design, and test scenario development. It also involves creating database designs (ERD), UML diagrams, Data Flow Diagrams (DFD), and responsive UI/UX designs to ensure optimal user experience across devices.",
       image: "/assets/deconest.png",
     },
+    {
+      title: "Movie List Website - Cinephile",
+      description:
+        "Cinephile is a movie web application that allows users to browse movie listings, view details about each movie, and add or remove movies from their favorites list. The website is built using Next.js (App Router) and gets data from MockAPI.io.",
+      image: "/assets/film.png",
+    },
+    {
+      title: "Weather Forecast Website",
+      description:
+        "The Artificial Neural Network (ANN)-Based Weather Forecast Website is a web application that can predict daily weather conditions, such as sunny, cloudy, or rainy, based on real-time data retrieved from WeatherAPI. This application is built using Flask (Python) for the backend and HTML/CSS/JavaScript for the interface. The Artificial Neural Network (ANN) model embedded in the system is used to analyze weather data such as temperature, humidity, wind speed, and sky conditions to produce accurate predictions.",
+      image: "/assets/cuaca.png",
+    },
   ];
 
   const truncate = (text: string, maxLength = 100) => {
