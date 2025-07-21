@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp, FaGithub } from "react-icons/fa";
 
 const Home = () => {
     const [formData, setFormData] = useState({
@@ -221,6 +221,13 @@ const Home = () => {
                                 className="flex items-center justify-center gap-2 hover:underline"
                             >
                                 <FaWhatsapp /> WhatsApp
+                            </a>
+                            <a
+                                href="https://github.com/fellian" // Ganti URL dengan akun GitHub kamu yang benar
+                                target="_blank"
+                                className="flex items-center justify-center gap-2 hover:underline"
+                            >
+                                <FaGithub /> GitHub
                             </a>
                         </div>
                     </motion.div>
