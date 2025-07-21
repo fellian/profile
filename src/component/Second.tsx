@@ -16,25 +16,25 @@ const Projects = () => {
       title: "FinBot",
       description:
         "FinBot is a web-based chatbot designed to assist in answering various questions related to Financial Technology (FinTech). It provides quick, relevant, and easy-to-understand information on topics such as digital wallets, online lending, tech-based investments, and other digital financial services.",
-      image: "public/assets/finbot.png",
+      image: "/assets/finbot.png",
     },
     {
       title: "Portfolio Website",
       description:
         "A portfolio website is a personal site that serves as a platform to showcase one's works, experiences, and skills professionally. Through this website, visitors can learn more about the individual's background, completed projects, and areas of expertise.",
-      image: "public/assets/portofolio.png",
+      image: "/assets/portofolio.png",
     },
     {
       title: "Book List Website",
       description:
         "The Book List Website is a web application designed to display, manage, and search for various types of books. It allows users to view available books, add new entries, edit information, and efficiently search through the collection.",
-      image: "public/assets/daftarbuku.png",
+      image: "/assets/daftarbuku.png",
     },
     {
       title: "DecoNest",
       description:
         "DecoNest is a web-based application developed to facilitate the online ordering and selling of home furniture. The design process includes requirement analysis (software specification), system design, and test scenario development. It also involves creating database designs (ERD), UML diagrams, Data Flow Diagrams (DFD), and responsive UI/UX designs to ensure optimal user experience across devices.",
-      image: "public/assets/deconest.png",
+      image: "/assets/deconest.png",
     },
   ];
 
